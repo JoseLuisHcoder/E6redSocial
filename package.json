@@ -10,15 +10,11 @@
   },
   "repository": {
     "type": "git"
-   
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    
-  },
-  
+  "bugs": {},
   "dependencies": {
     "bcrypt": "^5.1.0",
     "cors": "^2.8.5",
@@ -33,6 +29,7 @@
     "pg": "^8.8.0",
     "pg-hstore": "^2.3.4",
     "sequelize": "^6.26.0",
+    "swagger-ui-express": "^4.6.0",
     "uuid": "^9.0.0"
   },
   "devDependencies": {
