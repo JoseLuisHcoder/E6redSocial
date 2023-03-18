@@ -23,7 +23,19 @@
                         "description": "Ocurrio un error al obtener todos los usuarios"
                     }
                 }
-            }
+            },
+            "post": {
+              "responses": {
+                  "200": {
+                      "description": "Obtener todos los usuarios"
+                  },
+                  "400": {
+                      "description": "Ocurrio un error al obtener todos los usuarios"
+                  }
+              }
+          }
+
         }
       }
+      
     }
